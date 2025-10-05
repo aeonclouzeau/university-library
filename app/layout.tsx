@@ -1,7 +1,10 @@
+import "./globals.css";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import "./globals.css";
 
+/**
+ * Local fonts
+ */
 import localFont from "next/font/local";
 
 const ibmPlexSans = localFont({
